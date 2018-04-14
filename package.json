@@ -1,12 +1,11 @@
-package.json-{
-  "name":"project_name",
-  "version": "1.0.0",
-  "description":"This will render the HTML webpages.",
-  "scripts":{
-    "start":"harp server --port $PORT"
-  },
-  "dependencies":{
-    "harp":"*"
-  }
-  
-}
+{
+ 	 "name": "project_name",
+ 	 "version": "1.0.0",
+ 	 "description": "This will render the HTML webpages.",
+  	"scripts": {
+   	 "start": "harp server --port $PORT"
+  	},
+  	"dependencies": {
+    	"harp": "*"
+  	}
+	}
