@@ -1,13 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>My First App</title>
-  </head>
-  <body>
-    <div>
-      <h1>
-        This is my first page of programming language
-      </h1>
-    </div>
-  </body>
+<head>
+	<title>Quiz</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+	<link rel="stylesheet" type="text/css" href="Quiz.css">
+</head>
+<body>
+	<div id="quizContainer" class="container">
+		<div class="title">Computer Quiz</div>
+		<div id="question" class="question">Who is the father of Computer?</div>
+		<label class="option"><input type="radio" name="option" value="1"/><span id="opt1">Sam</span></label>
+		<label class="option"><input type="radio" name="option" value="2"/><span id="opt2">I Don't Know</span></label>
+		<label class="option"><input type="radio" name="option" value="3"/><span id="opt3">I M Not</span></label>
+		<label class="option"><input type="radio" name="option" value="4"/><span id="opt4">Pta nhi</span></label>
+		<button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+	</div>
+	<div id="result" class="container result" style="display: none;"></div>
+	<script type="text/javascript" src="question.js"></script>
+	<script type="text/javascript" src="quiz-script.js"></script>
+
+</body>
 </html>
